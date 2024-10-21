@@ -1,0 +1,32 @@
+{
+  "template": "app-nolayers",
+  "imports": {
+    "Volo.Abp.Account": {
+      "version": "8.3.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "8.3.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "8.3.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "8.3.1",
+      "isInstalled": true
+    }
+  },
+  "packages": {
+    "Acme.Bookstore.Blazor": {
+      "path": "Acme.Bookstore.Blazor/Acme.Bookstore.Blazor.abppkg"
+    },
+    "Acme.Bookstore.Host": {
+      "path": "Acme.Bookstore.Host/Acme.Bookstore.Host.abppkg"
+    },
+    "Acme.Bookstore.Contracts": {
+      "path": "Acme.Bookstore.Contracts/Acme.Bookstore.Contracts.abppkg"
+    }
+  }
+}

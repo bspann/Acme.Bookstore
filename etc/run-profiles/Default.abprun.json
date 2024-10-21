@@ -1,0 +1,12 @@
+﻿{
+  "applications": {
+    "Acme.Bookstore": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44395",
+      "path": "../../Acme.Bookstore.Host/Acme.Bookstore.Host.csproj",
+      "execution": {
+        "order": 0
+      }
+    }
+  }
+}

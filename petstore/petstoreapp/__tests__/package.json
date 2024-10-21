@@ -1,9 +1,0 @@
-{
-    "scripts": {
-        "test": "jest"
-    },
-    "dependencies": {
-        "chai": "^4.3.8",
-        "mocha": "^10.2.0"
-    }
-}
